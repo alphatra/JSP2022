@@ -1,8 +1,8 @@
 import math
 import cmath
-a = int(input("Podaj współczynniki a: "))
-b = int(input("Podaj współczynniki b: "))
-c = int(input("Podaj współczynniki c: "))
+a = float(input("Podaj współczynniki a: "))
+b = float(input("Podaj współczynniki b: "))
+c = float(input("Podaj współczynniki c: "))
 def pierwiastki_kw(a,b,c):
     𝛥 = pow(2,b)-(4*a*c)
     match 𝛥 >= 0:
