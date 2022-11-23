@@ -1,5 +1,5 @@
 def write_list(list):
-    print(' '.join([str(item) for item in list]).center(100))
+    print(''.join([str(item) for item in list]).center(100))
 
 x = input("Podaj liczbe poziomow: ")
 line = [1]
