@@ -3,7 +3,5 @@ txt = "sześćdziesiąt trzy"
 i=0
 for x in liczby:
     if x in txt:
-        #print(liczby[x],i)
+        print(liczby[x],i)
         i+=1
-res = ''.join(liczby[ele] for ele in txt.split())
-print(res)
