@@ -3,8 +3,8 @@ txt = "to jest moj tekst"
 
 print(txt)
 def szyfrator(txt):
-    txt = txt.translate(str.maketrans(klucz))
-    #txt = txt.maketrans("aeioy","yioae")
+    #txt = txt.translate(str.maketrans(klucz))
+    txt = txt.maketrans("aeioy","yioae")
     return txt
 def deszyfrator(txt):
     kluczd = {y: x for x, y in klucz.items()}
